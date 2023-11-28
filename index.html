@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <header class="p-2 bg-primary">
+      <nav class="container navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand d-flex align-items-center" href="./index.html">
+            <img
+              class="me-3"
+              src="./recursos/logo.png"
+              alt="logo"
+              style="width: 2rem; height: 2rem"
+            />
+            <span>Tu Hotel</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="./index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./registro-reservas.html">Registro reservas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Paquetes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./reservar.html">Reservar</a>
+              </li>
+            </ul>
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#inicioModal"
+              type="button"
+              class="btn btn-secondary rounded-pill me-3 px-3"
+              href="./reservas.html"
+            >
+              Iniciar Sesión
+            </button>
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#registrarseModal"
+              type="button"
+              class="btn btn-outline-secondary rounded-pill me-3 px-3"
+              href="./reservas.html"
+            >
+              Registrate
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="text-white">
+      <img
+        class="img-fluid"
+        src="./recursos/main1.jpeg"
+        alt="Imagen principal"
+      />
+    </section>
+    <main>
+      <section class="py-5">
+        <div class="container">
+          <h5 class="text-center">SERVICIOS</h5>
+          <h1 class="text-center text-primary mb-5">
+            Máximo confort en cada detalle.
+          </h1>
+          <div class="row">
+            <div class="col-lg-4 p-3">
+              <div class="">
+                <img
+                  class="my-3 mx-auto d-block imagen"
+                  src="./recursos/art1.jpg"
+                  alt="Articulo 1"
+                />
+                <p class="text-center mt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempora eos optio fugit assumenda sapiente autem.
+                </p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-outline-primary fw-medium" href=""
+                    >Leer más</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 p-3">
+              <div class="">
+                <img
+                  class="my-3 mx-auto d-block imagen"
+                  src="./recursos/art2.png"
+                  alt="Articulo 1"
+                />
+                <p class="text-center mt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempora eos optio fugit assumenda sapiente autem.
+                </p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-outline-primary fw-medium" href=""
+                    >Leer más</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 p-3">
+              <div class="">
+                <img
+                  class="my-3 mx-auto d-block imagen"
+                  src="./recursos/art3.png"
+                  alt="Articulo 1"
+                />
+                <p class="text-center mt-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempora eos optio fugit assumenda sapiente autem.
+                </p>
+                <div class="d-flex justify-content-center">
+                  <a class="btn btn-outline-primary fw-medium" href=""
+                    >Leer más</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-white">
+      <div class="container p-3">
+        <div class="d-flex justify-content-between align-items-center">
+          <a class="navbar-brand d-flex align-items-center" href="./index.html">
+            <img
+              class="me-3"
+              src="./recursos/logo.png"
+              alt="logo"
+              style="width: 2rem; height: 2rem"
+            />
+            <span>Tu Hotel</span></a
+          >
+          <p>Copyright 2023.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Modal Inicio Sesion -->
+    <div
+      class="modal fade"
+      id="inicioModal"
+      tabindex="-1"
+      aria-labelledby="inicioModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <form class="modal-content" id="inicioForm">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="inicioModalLabel">
+              Iniciar Sesión
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-floating mb-4">
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="tucorreo@gmail.com"
+                required
+              />
+              <label for="email" class="form-label">Correo</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                placeholder="password"
+                required
+              />
+              <label for="password" class="form-label">Contraseña</label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-primary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="submit" class="btn btn-primary">
+              Iniciar Sesión
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Modal Registrarse -->
+    <div
+      class="modal fade"
+      id="registrarseModal"
+      tabindex="-1"
+      aria-labelledby="registrarseModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <form class="modal-content" id="registrarseForm">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="registrarseModalLabel">
+              Registrarse
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="form-floating mb-4">
+              <input
+                type="text"
+                class="form-control"
+                id="nombreR"
+                placeholder="tucorreo@gmail.com"
+                required
+              />
+              <label for="nombreR" class="form-label">Nombre</label>
+            </div>
+            <div class="form-floating mb-4">
+              <input
+                type="emailR"
+                class="form-control"
+                id="correoR"
+                placeholder="tucorreo@gmail.com"
+                required
+              />
+              <label for="correoR" class="form-label">Correo</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="password"
+                class="form-control"
+                id="passwordR"
+                placeholder="Contraseña"
+                required
+              />
+              <label for="passwordR" class="form-label">Contraseña</label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-outline-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+            <button type="submit" class="btn btn-primary">Registrarse</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="./bootstrap.bundle.min.js"></script>
+    <script src="./jquery.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>

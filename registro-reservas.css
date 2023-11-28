@@ -1,0 +1,7 @@
+tbody tr {
+  cursor: pointer;
+}
+
+main {
+  min-height: 90vh;
+}
