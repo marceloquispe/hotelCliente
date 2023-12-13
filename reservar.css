@@ -11,3 +11,8 @@
 .mainImg{
   overflow: hidden;
 }
+
+.carousel-item img {
+  height: 75vh;
+  object-fit: cover;
+}

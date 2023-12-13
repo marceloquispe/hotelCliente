@@ -43,20 +43,20 @@ function elminarSeleccion() {
   $('#span1').html(contador);
 }
 
-$(".img-fluid").hover(
-  function () {
-    $(this).animate(
-      {
-        scale:(1, 1.1),
-      },
-      800
-    )
-  }, function () {
-    $(this).animate(
-      {
-        scale:'1',
-      },
-      800
-    )
-  }
-);
+// $(".img-fluid").hover(
+//   function () {
+//     $(this).animate(
+//       {
+//         scale:(1, 1.1),
+//       },
+//       800
+//     )
+//   }, function () {
+//     $(this).animate(
+//       {
+//         scale:'1',
+//       },
+//       800
+//     )
+//   }
+// );

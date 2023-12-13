@@ -39,11 +39,6 @@
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./registro-reservas.html"
-                  >Registro reservas</a
-                >
-              </li>
-              <li class="nav-item">
                 <a class="nav-link" href="#">Servicios</a>
               </li>
               <li class="nav-item">
@@ -92,12 +87,26 @@
     </header>
 
     <section class="text-white">
-      <div class="mainImg">
-        <img
-        class="img-fluid"
-        src="./recursos/main2.jpeg"
-        alt="Imagen principal"
-      />
+      <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./recursos/main1.jpeg" class="d-block w-100" alt="Imagen Principal 1">
+          </div>
+          <div class="carousel-item">
+            <img src="./recursos/main2.jpeg" class="d-block w-100" alt="Imagen Principal 2">
+          </div>
+          <div class="carousel-item">
+            <img src="./recursos/main3.jpeg" class="d-block w-100" alt="Imagen Principal 3">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
 
